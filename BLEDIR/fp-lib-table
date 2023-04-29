@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "kicad")(type "KiCad")(uri "/home/willow/prj/kicad.pretty")(options "")(descr ""))
+)

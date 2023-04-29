@@ -1,0 +1,525 @@
+EESchema Schematic File Version 2
+LIBS:gamebuino-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myParts
+LIBS:ProMini
+LIBS:SDCARD
+LIBS:gamebuino-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "17 sep 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NOKIA LCD1
+U 1 1 54EBB637
+P 5450 1300
+F 0 "LCD1" H 5450 1200 50  0000 C CNN
+F 1 "NOKIA" H 5450 1400 50  0000 C CNN
+F 2 "MODULE" H 5450 1300 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5450 1300 50  0001 C CNN
+	1    5450 1300
+	1    0    0    -1  
+$EndComp
+Text Label 4250 1350 0    60   ~ 0
+SCK
+Text Label 4250 1250 0    60   ~ 0
+MOSI
+Text Label 4250 1150 0    60   ~ 0
+SCR DC
+$Comp
+L R-RESCUE-gamebuino R1
+U 1 1 54EBB78C
+P 3650 1050
+F 0 "R1" V 3730 1050 40  0000 C CNN
+F 1 "10K" V 3657 1051 40  0000 C CNN
+F 2 "~" V 3580 1050 30  0000 C CNN
+F 3 "~" H 3650 1050 30  0000 C CNN
+	1    3650 1050
+	0    -1   -1   0   
+$EndComp
+Text Label 3400 900  0    60   ~ 0
+SCR ENABLE
+Text Label 4250 950  0    60   ~ 0
+SCR RST
+$Comp
+L SW_PUSH SW2
+U 1 1 54EBBA7C
+P 2600 2800
+F 0 "SW2" H 2750 2910 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 2720 50  0000 C CNN
+F 2 "~" H 2600 2800 60  0000 C CNN
+F 3 "~" H 2600 2800 60  0000 C CNN
+	1    2600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW3
+U 1 1 54EBBA92
+P 2600 3100
+F 0 "SW3" H 2750 3210 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 3020 50  0000 C CNN
+F 2 "~" H 2600 3100 60  0000 C CNN
+F 3 "~" H 2600 3100 60  0000 C CNN
+	1    2600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW4
+U 1 1 54EBBA98
+P 2600 3400
+F 0 "SW4" H 2750 3510 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 3320 50  0000 C CNN
+F 2 "~" H 2600 3400 60  0000 C CNN
+F 3 "~" H 2600 3400 60  0000 C CNN
+	1    2600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW5
+U 1 1 54EBBA9E
+P 2600 3700
+F 0 "SW5" H 2750 3810 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 3620 50  0000 C CNN
+F 2 "~" H 2600 3700 60  0000 C CNN
+F 3 "~" H 2600 3700 60  0000 C CNN
+	1    2600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 54EBBAA4
+P 2600 2500
+F 0 "SW1" H 2750 2610 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 2420 50  0000 C CNN
+F 2 "~" H 2600 2500 60  0000 C CNN
+F 3 "~" H 2600 2500 60  0000 C CNN
+	1    2600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW6
+U 1 1 54EBBAAA
+P 2600 4000
+F 0 "SW6" H 2750 4110 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 3920 50  0000 C CNN
+F 2 "~" H 2600 4000 60  0000 C CNN
+F 3 "~" H 2600 4000 60  0000 C CNN
+	1    2600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW7
+U 1 1 54EBBAB0
+P 2600 4300
+F 0 "SW7" H 2750 4410 50  0000 C CNN
+F 1 "SW_PUSH" H 2600 4220 50  0000 C CNN
+F 2 "~" H 2600 4300 60  0000 C CNN
+F 3 "~" H 2600 4300 60  0000 C CNN
+	1    2600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1450 4700 1450
+Wire Wire Line
+	4700 1350 4250 1350
+Wire Wire Line
+	4700 1250 4250 1250
+Wire Wire Line
+	4700 1150 4250 1150
+Wire Wire Line
+	3900 1050 4700 1050
+Wire Wire Line
+	3400 1050 3400 1550
+Wire Wire Line
+	3400 1550 4100 1550
+Wire Wire Line
+	4100 1550 4100 1450
+Wire Wire Line
+	4050 1050 4050 900 
+Wire Wire Line
+	4050 900  3400 900 
+Connection ~ 4050 1050
+Wire Wire Line
+	4700 950  4250 950 
+Wire Wire Line
+	2050 2500 2050 4450
+Wire Wire Line
+	2050 2500 2300 2500
+Wire Wire Line
+	2300 2800 2050 2800
+Connection ~ 2050 2800
+Wire Wire Line
+	2300 3100 2050 3100
+Connection ~ 2050 3100
+Wire Wire Line
+	2300 3400 2050 3400
+Connection ~ 2050 3400
+Wire Wire Line
+	2300 3700 2050 3700
+Connection ~ 2050 3700
+Wire Wire Line
+	2300 4000 2050 4000
+Connection ~ 2050 4000
+Wire Wire Line
+	2300 4300 2050 4300
+Connection ~ 2050 4300
+Text Label 2900 2500 0    60   ~ 0
+BTN0
+Text Label 2900 2800 0    60   ~ 0
+BTN1
+Text Label 2900 3100 0    60   ~ 0
+BTN2
+Text Label 2900 3400 0    60   ~ 0
+BTN3
+Text Label 2900 3700 0    60   ~ 0
+BTNA
+Text Label 2900 4000 0    60   ~ 0
+BTNB
+Text Label 2900 4300 0    60   ~ 0
+BTNC
+$Comp
+L SPEAKER SP1
+U 1 1 54EBBC28
+P 3700 5150
+F 0 "SP1" H 3600 5400 70  0000 C CNN
+F 1 "SPEAKER" H 3600 4900 70  0000 C CNN
+F 2 "~" H 3700 5150 60  0000 C CNN
+F 3 "~" H 3700 5150 60  0000 C CNN
+	1    3700 5150
+	1    0    0    -1  
+$EndComp
+Text Label 3400 5050 2    60   ~ 0
+SOUND
+Text Label 4700 1650 2    60   ~ 0
+GND
+Text Label 4100 1450 2    60   ~ 0
+VCC
+Text Label 2050 4450 0    60   ~ 0
+GND
+Text Label 3400 5250 2    60   ~ 0
+GND
+$Comp
+L SDCARD U1
+U 1 1 54EC4945
+P 8250 2700
+F 0 "U1" H 8250 2600 50  0000 C CNN
+F 1 "SDCARD" H 8250 2800 50  0000 C CNN
+F 2 "MODULE" H 8250 2700 50  0001 C CNN
+F 3 "DOCUMENTATION" H 8250 2700 50  0001 C CNN
+	1    8250 2700
+	1    0    0    -1  
+$EndComp
+Text Label 7500 2450 2    60   ~ 0
+VCC
+Text Label 7500 2550 2    60   ~ 0
+SD ENABLE
+Text Label 7500 2650 2    60   ~ 0
+MOSI
+Text Label 7500 2750 2    60   ~ 0
+SCK
+Text Label 7500 2850 2    60   ~ 0
+MISO
+Text Label 7500 2950 2    60   ~ 0
+GND
+$Comp
+L ATMEGA328P-P-RESCUE-gamebuino IC1
+U 1 1 54F0FDCD
+P 8200 5250
+F 0 "IC1" H 7450 6500 40  0000 L BNN
+F 1 "ATMEGA328P-P" H 8600 3850 40  0000 L BNN
+F 2 "DIL28" H 8200 5250 30  0000 C CIN
+F 3 "" H 8200 5250 60  0000 C CNN
+	1    8200 5250
+	1    0    0    -1  
+$EndComp
+Text Label 7300 4150 2    60   ~ 0
+VCC
+NoConn ~ 7300 4750
+Text Label 6950 6350 2    60   ~ 0
+GND
+Text Label 7300 6450 2    60   ~ 0
+GND
+Text Label 9200 4150 0    60   ~ 0
+BTN3
+Text Label 9200 4250 0    60   ~ 0
+BTN0
+Text Label 9200 4350 0    60   ~ 0
+SD ENABLE
+Text Label 9200 4450 0    60   ~ 0
+MOSI
+Text Label 9200 4550 0    60   ~ 0
+MISO
+Text Label 9200 4650 0    60   ~ 0
+SCK
+$Comp
+L CRYSTAL X1
+U 1 1 54F0FEB2
+P 10550 4650
+F 0 "X1" H 10550 4800 60  0000 C CNN
+F 1 "CRYSTAL" H 10550 4500 60  0000 C CNN
+F 2 "~" H 10550 4650 60  0000 C CNN
+F 3 "~" H 10550 4650 60  0000 C CNN
+	1    10550 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 4350 10150 4350
+Wire Wire Line
+	10150 4750 9200 4750
+Wire Wire Line
+	10150 4350 10150 4750
+Wire Wire Line
+	9200 4850 10150 4850
+Wire Wire Line
+	10150 4850 10150 4950
+Wire Wire Line
+	10150 4950 10550 4950
+Text Label 9200 5000 0    60   ~ 0
+SCR RST
+Text Label 9200 5100 0    60   ~ 0
+SCR ENABLE
+Text Label 9200 5200 0    60   ~ 0
+SCR DC
+Text Label 9200 5300 0    60   ~ 0
+BTNC
+NoConn ~ 9200 5400
+NoConn ~ 9200 5500
+Text Label 9200 5600 0    60   ~ 0
+RST
+Text Label 9200 5750 0    60   ~ 0
+RX
+Text Label 9200 5850 0    60   ~ 0
+TX
+Text Label 9200 5950 0    60   ~ 0
+BTNB
+Text Label 9200 6050 0    60   ~ 0
+SOUND
+Text Label 9200 6150 0    60   ~ 0
+BTNA
+Text Label 9200 6350 0    60   ~ 0
+BTN2
+Text Label 9200 6450 0    60   ~ 0
+BTN1
+$Comp
+L C-RESCUE-gamebuino C2
+U 1 1 54F85134
+P 10550 5150
+F 0 "C2" H 10550 5250 40  0000 L CNN
+F 1 "22p" H 10556 5065 40  0000 L CNN
+F 2 "~" H 10588 5000 30  0000 C CNN
+F 3 "~" H 10550 5150 60  0000 C CNN
+	1    10550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-gamebuino C1
+U 1 1 54F85143
+P 10550 4150
+F 0 "C1" H 10550 4250 40  0000 L CNN
+F 1 "22p" H 10556 4065 40  0000 L CNN
+F 2 "~" H 10588 4000 30  0000 C CNN
+F 3 "~" H 10550 4150 60  0000 C CNN
+	1    10550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 3950 10850 3950
+Wire Wire Line
+	10850 3950 10850 5350
+Wire Wire Line
+	10850 5350 10550 5350
+Wire Wire Line
+	10850 4650 11050 4650
+Connection ~ 10850 4650
+Text Label 11050 4650 0    60   ~ 0
+GND
+NoConn ~ 9200 6250
+NoConn ~ 9200 5750
+NoConn ~ 9200 5850
+Text Label 9200 4750 0    60   ~ 0
+XTAL1
+Text Label 9200 4850 0    60   ~ 0
+XTAL2
+$Comp
+L SPST SW8
+U 1 1 54F84FD5
+P 8150 1650
+F 0 "SW8" H 8150 1750 70  0000 C CNN
+F 1 "SPST" H 8150 1550 70  0000 C CNN
+F 2 "~" H 8150 1650 60  0000 C CNN
+F 3 "~" H 8150 1650 60  0000 C CNN
+	1    8150 1650
+	1    0    0    -1  
+$EndComp
+Text Label 8650 1650 0    60   ~ 0
+VCC
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 54EBBFD6
+P 6450 850
+F 0 "#FLG01" H 6450 945 30  0001 C CNN
+F 1 "PWR_FLAG" H 6450 1030 30  0000 C CNN
+F 2 "" H 6450 850 60  0000 C CNN
+F 3 "" H 6450 850 60  0000 C CNN
+	1    6450 850 
+	1    0    0    -1  
+$EndComp
+Text Label 6650 1650 2    60   ~ 0
+GND
+Connection ~ 6450 1650
+Wire Wire Line
+	6450 1650 7250 1650
+Wire Wire Line
+	6450 1600 6450 1700
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 54EBBED3
+P 6450 1600
+F 0 "#FLG02" H 6450 1695 30  0001 C CNN
+F 1 "PWR_FLAG" H 6450 1780 30  0000 C CNN
+F 2 "" H 6450 1600 60  0000 C CNN
+F 3 "" H 6450 1600 60  0000 C CNN
+	1    6450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-gamebuino #PWR03
+U 1 1 54EBBDB8
+P 6450 1700
+F 0 "#PWR03" H 6450 1700 30  0001 C CNN
+F 1 "GND" H 6450 1630 30  0001 C CNN
+F 2 "" H 6450 1700 60  0000 C CNN
+F 3 "" H 6450 1700 60  0000 C CNN
+	1    6450 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 850  6650 850 
+Text Label 6650 850  0    60   ~ 0
+VIN
+Text Label 7650 1650 2    60   ~ 0
+VOUT
+$Comp
+L BATTERY BT1
+U 1 1 552C88C6
+P 6950 850
+F 0 "BT1" H 6950 1050 50  0000 C CNN
+F 1 "BATTERY" H 6950 660 50  0000 C CNN
+F 2 "~" H 6950 850 60  0000 C CNN
+F 3 "~" H 6950 850 60  0000 C CNN
+	1    6950 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1650 7250 850 
+Text Label 6950 4450 2    60   ~ 0
+VCC
+Wire Wire Line
+	9200 5600 9500 5600
+$Comp
+L R-RESCUE-gamebuino R3
+U 1 1 552CD64F
+P 9750 5600
+F 0 "R3" V 9830 5600 40  0000 C CNN
+F 1 "10K" V 9757 5601 40  0000 C CNN
+F 2 "~" V 9680 5600 30  0000 C CNN
+F 3 "~" H 9750 5600 30  0000 C CNN
+	1    9750 5600
+	0    -1   -1   0   
+$EndComp
+Text Label 10000 5600 0    60   ~ 0
+VCC
+$Comp
+L R-RESCUE-gamebuino R2
+U 1 1 552CD73E
+P 4450 1850
+F 0 "R2" V 4530 1850 40  0000 C CNN
+F 1 "220" V 4457 1851 40  0000 C CNN
+F 2 "~" V 4380 1850 30  0000 C CNN
+F 3 "~" H 4450 1850 30  0000 C CNN
+	1    4450 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 1550 4200 1550
+Wire Wire Line
+	4200 1550 4200 1850
+Wire Wire Line
+	4700 1850 4700 1650
+$Comp
+L LM1084IT-3.3/NOPB U2
+U 1 1 552CD7C7
+P 8100 900
+F 0 "U2" H 8300 700 40  0000 C CNN
+F 1 "LM1084IT-3.3/NOPB" H 7800 1100 40  0000 L CNN
+F 2 "TO-220" H 8100 1000 30  0000 C CIN
+F 3 "" H 8100 900 60  0000 C CNN
+	1    8100 900 
+	1    0    0    -1  
+$EndComp
+Text Label 8500 850  0    60   ~ 0
+VOUT
+Text Label 7700 850  2    60   ~ 0
+VIN
+Text Label 8100 1150 0    60   ~ 0
+GND
+Wire Wire Line
+	6950 6350 7300 6350
+Wire Wire Line
+	6950 4450 7300 4450
+$Comp
+L C-RESCUE-gamebuino C3
+U 1 1 55FB3E54
+P 7100 5300
+F 0 "C3" H 7150 5400 30  0000 L CNN
+F 1 "10u" H 7150 5200 30  0000 L CNN
+F 2 "~" H 7100 5300 60  0000 C CNN
+F 3 "~" H 7100 5300 60  0000 C CNN
+	1    7100 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5100 7100 4450
+Connection ~ 7100 4450
+Wire Wire Line
+	7100 5500 7100 6350
+Connection ~ 7100 6350
+$EndSCHEMATC

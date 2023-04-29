@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "gamebuino-rescue")(type "Legacy")(uri "${KIPRJMOD}/gamebuino-rescue.lib")(options "")(descr ""))
+  (lib (name "myParts")(type "Legacy")(uri "${KIPRJMOD}/libraries/myParts.lib")(options "")(descr ""))
+  (lib (name "ProMini")(type "Legacy")(uri "${KIPRJMOD}/libraries/ProMini.lib")(options "")(descr ""))
+  (lib (name "SDCARD")(type "Legacy")(uri "${KIPRJMOD}/libraries/SDCARD.lib")(options "")(descr ""))
+)

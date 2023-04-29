@@ -1,0 +1,53 @@
+PCBNEW-LibModule-V1  пт, 27-бер-2015 15:13:00 +0200
+# encoding utf-8
+Units mm
+$INDEX
+HC-18UV
+$EndINDEX
+$MODULE HC-18UV
+Po 0 0 0 15 55155741 00000000 ~~
+Li HC-18UV
+Cd Quartz boitier HC-18U vertical
+Kw QUARTZ DEV
+Sc 0
+AR /54F0FEB2
+Op 0 A 0
+.LocalClearance 0.0254
+T0 0 -1.27 1.143 1.27 0 0.1524 N V 21 N "X1"
+T1 0 1.651 1.143 1.27 0 0.1524 N V 21 N "CRYSTAL"
+DS -6.985 -1.27 -5.715 -2.54 0.1524 21
+DS 5.715 -2.54 6.985 -1.27 0.1524 21
+DS 6.985 1.27 5.715 2.54 0.1524 21
+DS -6.985 1.27 -5.715 2.54 0.1524 21
+DS -5.715 -2.54 5.715 -2.54 0.1524 21
+DS -6.985 -1.27 -6.985 1.27 0.1524 21
+DS -5.715 2.54 5.715 2.54 0.1524 21
+DS 6.985 1.27 6.985 -1.27 0.1524 21
+$PAD
+Sh "1" C 1.778 1.778 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 2 "/XTAL2"
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 1.778 1.778 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 1 "/XTAL1"
+Po 2.794 0
+$EndPAD
+$SHAPE3D
+Na "discret/crystal_hc18u_vertical.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$SHAPE3D
+Na "discret/xtal/crystal_hc18u_vertical.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE HC-18UV
+$EndLIBRARY

@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = ср, 23-вер-2015 19:33:01 +0300
+
+BeginCmp
+TimeStamp = /552C88C6;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F85143;
+Reference = C1;
+ValeurCmp = 22p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F85134;
+Reference = C2;
+ValeurCmp = 22p;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FB3E54;
+Reference = C3;
+ValeurCmp = 10u;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F0FDCD;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-P;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBB637;
+Reference = LCD1;
+ValeurCmp = NOKIA;
+IdModule  = NOKIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBB78C;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /552CD73E;
+Reference = R2;
+ValeurCmp = 220;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /552CD64F;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBBC28;
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = BUZZER;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBBAA4;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBBA7C;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBBA92;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBBA98;
+Reference = SW4;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBBA9E;
+Reference = SW5;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBBAAA;
+Reference = SW6;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EBBAB0;
+Reference = SW7;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F84FD5;
+Reference = SW8;
+ValeurCmp = SPST;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EC4945;
+Reference = U1;
+ValeurCmp = SDCARD;
+IdModule  = SDCARD;
+EndCmp
+
+BeginCmp
+TimeStamp = /552CD7C7;
+Reference = U2;
+ValeurCmp = LM1084IT-3.3/NOPB;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F0FEB2;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-18UV-rotated;
+EndCmp
+
+EndListe
